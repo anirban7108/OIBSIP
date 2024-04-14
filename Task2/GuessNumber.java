@@ -22,5 +22,6 @@ public class GuessNumber {
             }
             System.out.println("No of attempts left:" + (11 - i));
         }
+        sc.close();
     }
 }
