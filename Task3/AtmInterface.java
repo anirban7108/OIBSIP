@@ -86,7 +86,7 @@ class Transfer {
             } else {
                 balance = balance - tamount;
                 String time = lTime.format(crFormatTime);
-                writer.write(time + "\tBANK TRANSFER\t\t" + tamount + "\t\t\t" + balance+"\nAC NO: "+acc+" NAME:"+ahname+"\n");
+                writer.write(time + "\tBANK TRANSFER\t\t" + tamount + "\t\t\t`" + balance+"\nAC NO: "+acc+" NAME:"+ahname+"\n");
                 System.out.println("\nTRANSACTION COMPLETED");
             }
         } catch (IOException e) {
