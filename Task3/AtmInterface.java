@@ -155,7 +155,7 @@ public class AtmInterface {
         while (true) {
             System.out.print("\n\nEnter your Card Number:");
             long card = sc.nextLong();
-            if (card == 1111) {
+            if (card == 9874563210L) {
                 int i = 0;
                 while (i < 3) {
                     System.out.print("Enter the pin: ");
