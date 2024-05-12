@@ -9,7 +9,7 @@ public class GuessNumber {
             System.out.print("\nEnter the Guess:-");
             int guess = sc.nextInt();
             if (guess == num) {
-                System.out.println("\n\n\t\tWRIGHT GUESS\n\t\tNo of guess=" + i + "\n");
+                System.out.println("\n\n\t\tRIGHT GUESS\n\t\tNo of guess=" + i + "\n");
                 break;
             } else if (guess < num) {
                 System.out.println("\nIt is lower then generated number");
